@@ -11,7 +11,7 @@ class App extends React.Component {
 		return (
 			<div className="container">
 				<div className="col-xs-10 col-xs-offset-1">
-					<button onClick={this.alertUser.bind(this)} class="btn btn-primary" type="button">
+					<button onClick={this.alertUser.bind(this)} className="btn btn-primary" type="button">
 						Reacter
 					</button>
 				</div>
