@@ -9,7 +9,7 @@ npm i webpack webpack-cli webpack-dev-server @babel/core @babel/preset-react bab
 wget https://raw.githubusercontent.com/nqminhuit/minimal-react/master/webpack.config.js
 mkdir -p src/app
 (cd src/ && wget https://raw.githubusercontent.com/nqminhuit/minimal-react/master/src/index.html)
-(cd src/app/ && touch index.js && echo "console.log('app works!');" > index.js)
+(cd src/app/ && wget https://raw.githubusercontent.com/nqminhuit/minimal-react/master/src/app/index.js)
 echo "*** Please append these lines to package.json in \"scripts\" properties:"
 echo "================================================================================================================"
 echo "\"start\": \"npm run build\"",
