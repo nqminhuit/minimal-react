@@ -14,3 +14,8 @@ $ mkdir -p src/app
 ```bash
 $ npm start
 ```
+
+### To create this minimal project, run:
+```bash
+$ curl -s "https://raw.githubusercontent.com/nqminhuit/minimal-react/master/create_minimal_react.sh" | bash
+```
